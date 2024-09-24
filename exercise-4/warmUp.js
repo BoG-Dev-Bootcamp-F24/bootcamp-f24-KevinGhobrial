@@ -16,6 +16,23 @@
  * F = anything < 60
  */
 function toLetterGrade(numGrade) {
+  if(numGrade < 0){
+    return "INVALID";
+  }
+  if(numGrade > 100){
+    return "INVALID";
+  }
+  if(numGrade >= 90){
+    return "A";
+  } else if (numGrade >= 80){
+    return "B";
+  } else if (numGrade >= 70){
+    return "C";
+  } else if (numGrade >= 60){
+    return "D";
+  } else {
+    return "F";
+  }
   // TODO
 }
 
@@ -27,6 +44,15 @@ function toLetterGrade(numGrade) {
  * Example: [9, 3, 4, 1, 2, 0] --> [4, 2, 0]
  */
 function getEvenElements(array) {
+  const evenArray = [];
+  let j = 0;
+  for( let i = 0; i < array.length; i++){
+    if(array[i] % 2 == 0){
+      evenArray[j] = array[i];
+      j++;
+    }
+  }
+  return evenArray;
   // TODO
 }
 
@@ -40,6 +66,14 @@ function getEvenElements(array) {
  * Example: "I love Bits of Good" --> 4
  */
 function findLongestWord(string) {
+  const words = string.split(" ");
+  let longestWord = 0;
+  for( let i = 0; i < words.length; i++){
+    if(words[i].length > longestWord){
+      longestWord = words[i].length;
+    }
+  }
+  return longestWord;
   // TODO
 }
 
@@ -65,6 +99,8 @@ function findLongestWord(string) {
     } 
  */
 function combineObjects(object1, object2) {
+  const merged = {...object1, ...object2};
+  return merged;
   // TODO
 }
 
@@ -77,6 +113,13 @@ function combineObjects(object1, object2) {
  *  Example: [1, 2, 3] -> [3, 2, 1]
  */
 function reverseArr(array) {
+  const reversed = [];
+  let j = 0;
+  for(let i = array.length - 1; i >= 0; i--){
+    reversed[j] = array[i];
+    j++;
+  }
+  return reversed;
   // TODO
 }
 
@@ -97,3 +140,4 @@ testGetEvenElements(getEvenElements);
 testFindLongestWord(findLongestWord);
 testCombineObjects(combineObjects);
 testReverseArr(reverseArr);
+
