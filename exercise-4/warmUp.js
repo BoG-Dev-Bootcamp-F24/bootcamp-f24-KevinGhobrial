@@ -16,6 +16,7 @@
  * F = anything < 60
  */
 function toLetterGrade(numGrade) {
+
   if(numGrade < 0){
     return "INVALID";
   }
