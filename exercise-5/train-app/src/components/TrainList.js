@@ -1,4 +1,4 @@
-import Train from "./Train"; // Ensure this path is correct
+import Train from "./Train"; 
 
 const TrainList = ({ color, data }) => {
   return (

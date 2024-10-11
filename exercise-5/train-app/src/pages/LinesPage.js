@@ -42,7 +42,7 @@ const LinesPage = () => {
       <div className="main-content">
         <h2>Available Trains:</h2>
 
-        {/* Non-functional buttons at the top */}
+      
         <div className="button-group">
           <button className="btn">Arriving</button>
           <button className="btn">Scheduled</button>
@@ -52,12 +52,12 @@ const LinesPage = () => {
           <button className="btn">Westbound</button>
         </div>
 
-        {/* Train list with individual containers */}
+       
         <div className="train-list">
           {uniqueTrains.length > 0 ? (
             uniqueTrains.map(train => (
               <div key={train._id} className="train-item">
-                {train.LINE} to {train.DESTINATION} {/* Adjust based on your train schema */}
+                {train.LINE} to {train.DESTINATION} 
               </div>
             ))
           ) : (

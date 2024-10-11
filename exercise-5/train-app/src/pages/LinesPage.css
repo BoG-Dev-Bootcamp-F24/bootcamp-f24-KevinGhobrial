@@ -1,59 +1,59 @@
 .container {
-  display: flex; /* Use flexbox for layout */
-  height: 100vh; /* Full viewport height */
-  border: 1px solid #ccc; /* Border around the main container */
-  border-radius: 10px; /* Rounded corners */
-  overflow: hidden; /* Hide overflow */
+  display: flex; 
+  height: 100vh; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  overflow: hidden; 
 }
 
 .navbar {
-  width: 200px; /* Fixed width for the navbar */
-  background-color: #f0f0f0; /* Light background color */
-  padding: 20px; /* Padding inside navbar */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
-  height: 100%; /* Make the navbar full height */
+  width: 200px; 
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+  height: 100%; 
 }
 
 .main-content {
-  flex: 1; /* Allow main content to fill the remaining space */
-  padding: 20px; /* Add padding for main content */
-  background-color: #fff; /* Set a background color for main content */
-  overflow-y: auto; /* Enable vertical scrolling if content overflows */
-  height: 100%; /* Make the main content full height */
+  flex: 1; 
+  padding: 20px; 
+  background-color: #fff; 
+  overflow-y: auto;
+  height: 100%; 
 }
 
 .button-group {
-  margin-bottom: 20px; /* Space below the button group */
-  display: flex; /* Flexbox layout for buttons */
-  gap: 10px; /* Space between buttons */
+  margin-bottom: 20px; 
+  display: flex; 
+  gap: 10px; 
 }
 
 
 .btn {
-  padding: 10px 15px; /* Padding for buttons */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #007bff; /* Primary button color */
-  color: white; /* Text color */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth transition */
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3; 
 }
 
 .train-list {
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Arrange items vertically */
-  gap: 10px; /* Space between train items */
-  margin-top: 20px; /* Space above the train list */
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+  margin-top: 20px; 
 }
 
 .train-item {
-  padding: 10px; /* Padding for each train item */
-  border: 1px solid #ccc; /* Border around each train item */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #f9f9f9; /* Light background color */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }

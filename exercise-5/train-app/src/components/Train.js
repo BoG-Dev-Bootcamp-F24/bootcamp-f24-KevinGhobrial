@@ -1,5 +1,5 @@
 import React from 'react';
-import './Train.css'; // Import the CSS
+import './Train.css'; 
 
 const Train = ({ train }) => {
   return (
