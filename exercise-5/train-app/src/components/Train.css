@@ -1,0 +1,13 @@
+/* src/components/Train.css */
+.train {
+    padding: 10px;
+    background-color: #e7f3fe;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+  }
+  
+  .train:hover {
+    background-color: #cfe2ff;
+    border-color: #91b0f8;
+  }
+  

@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    padding: 20px; /* Padding inside navbar */
+    background-color: #f0f0f0; /* Light background color */
+    height: 100%; /* Full height of parent container */
+  }
+  
+  .navbar-items {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    gap: 10px; /* Space between navbar items */
+  }
+  
+  .navbar-item {
+    padding: 5px 10px; /* Adjust padding to reduce button height */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* Background color for navbar items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Full width of the navbar */
+    font-size: 14px; /* Adjust font size as needed */
+    line-height: 1.2; /* Adjust line height for better spacing */
+  }
+  
+  .navbar-item:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  
